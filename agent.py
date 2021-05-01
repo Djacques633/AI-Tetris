@@ -1,8 +1,5 @@
-import torch
 import random
-import numpy as np
 from main import Tetris
-from collections import deque
 import copy
 
 
@@ -11,7 +8,7 @@ class Agent:
     games = 0
     # Pick which play method the AI will follow
     play_method = ['RANDOM', 'MATCH', 'HOLE']
-    choice = 3
+    choice = 2
     front_pass = True
     board = []
     height = 20
